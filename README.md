@@ -22,8 +22,27 @@
 ![image](https://user-images.githubusercontent.com/103019032/162924431-f16418c4-41c9-4527-acf3-b3a2c578700d.png)
 - #### To stop the running container run docker stop command by specifying the Container ID or Name
 ![image](https://user-images.githubusercontent.com/103019032/162925471-716fcc8c-fac1-4a7a-b377-883c74e869ea.png)
-## Dockerfile
+## *Dockerfile*
 - #### create a file using vi editor and cat command is used to display the content
 ![image](https://user-images.githubusercontent.com/103019032/162944315-f97ac60d-8502-42f8-bdd3-ad4ccfb2d978.png)
 - #### The docker build command file execute stepwise
 ![image](https://user-images.githubusercontent.com/103019032/162945182-2dd55b07-ddd5-4366-8a15-5b3a722f5b84.png)
+ ## *Managing ports in Docker*
+ - #### logged into docker hub
+ ![image](https://user-images.githubusercontent.com/103019032/162949345-35c334c0-5300-402b-8465-f2c2509a2e1a.png)
+- #### Next, let’s browse and search the Jenkins image
+![image](https://user-images.githubusercontent.com/103019032/162949916-c3334863-856d-44f9-9034-d9420b979645.png)
+- #### you can see the Docker pull command. This will be used to download the Jenkins Image onto the local Ubuntu server
+![image](https://user-images.githubusercontent.com/103019032/162951312-934965d9-19de-4c78-a92c-664d6e919b79.png)
+- #### Now go to the Ubuntu server and run the command
+![image](https://user-images.githubusercontent.com/103019032/162951647-8f0fe9c9-1ca5-4435-8236-8d5601b81aa2.png)
+- #### To understand what ports are exposed by the container, you should use the Docker inspect command to inspect the image
+![image](https://user-images.githubusercontent.com/103019032/162952088-500b10b0-6747-4166-a4af-d28933218c93.png)
+- #### To run Jenkins and map the ports, you need to change the Docker run command and add the ‘p’ option which specifies the port mapping. So, you need to run the following command
+![image](https://user-images.githubusercontent.com/103019032/162956898-b6abee4d-644a-4adc-8ede-56a8a0b34bca.png)
+## *Docker networing*
+- #### The command will output all the networks on the Docker Host
+![image](https://user-images.githubusercontent.com/103019032/162958677-06354691-ffa5-4b5a-bac2-21ffc6c0005f.png)
+- #### sudo docker network inspect bridge command will output all the details about the network
+![image](https://user-images.githubusercontent.com/103019032/162959221-4e1f167b-d7a0-4b85-89a8-86a0cc11f37b.png)Creating Your Own New Network
+- #### Creating Your Own New Network
