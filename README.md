@@ -46,3 +46,6 @@
 - #### sudo docker network inspect bridge command will output all the details about the network
 ![image](https://user-images.githubusercontent.com/103019032/162959221-4e1f167b-d7a0-4b85-89a8-86a0cc11f37b.png)Creating Your Own New Network
 - #### Creating Your Own New Network
+![image](https://user-images.githubusercontent.com/103019032/162960182-0180aa97-f836-438e-8d94-bfb06d0aec8a.png)
+- #### this command will be used about network information
+![image](https://user-images.githubusercontent.com/103019032/162960531-f4e71e1f-d47e-47de-89f8-f524b0434b59.png)
