@@ -1,5 +1,5 @@
 # Docker
-## * Installation of Docker in ubuntu * 
+## *Installation of Docker in ubuntu* 
 - #### Type sudo snap install docker or sudo apt  install docker.io to initialize the process of installation of docker
 ![image](https://user-images.githubusercontent.com/103019032/162897026-57266f2d-737e-474e-b9ec-301631786af0.png)
 - #### After installation of docker we will check the docker version
