@@ -51,15 +51,15 @@
 ![image](https://user-images.githubusercontent.com/103019032/162960531-f4e71e1f-d47e-47de-89f8-f524b0434b59.png)
 ## *Docker private repo*
 - #### Use the Docker run command to download the private registry. This can be done using the following command
-![image](https://user-images.githubusercontent.com/103019032/163169614-2eb4b082-1844-4714-81d4-da2237e61928.pn- g)
+![image](https://user-images.githubusercontent.com/103019032/163169614-2eb4b082-1844-4714-81d4-da2237e61928.png)
 - #### Let’s do a docker ps to see that the registry container is indeed running
 ![image](https://user-images.githubusercontent.com/103019032/163170120-4bcdb9c5-2e05-4a89-89a0-78113dd31ea9.png)
 - #### In our example, since we have the centos image available locally, we are going to tag it to our private repository and add a tag name of centos
 ![image](https://user-images.githubusercontent.com/103019032/163171113-1b3411e7-a1cd-469a-9a6b-617c196b699c.png)
 - #### Now let’s use the Docker push command to push the repository to our private repository
 ![image](https://user-images.githubusercontent.com/103019032/163171533-5832d284-74c5-4fba-b62b-403d792a64b8.png)
--#### Now let’s delete the local images we have for centos using the docker rmi commands. We can then download the required centos image from our private repository
+- #### Now let’s delete the local images we have for centos using the docker rmi commands. We can then download the required centos image from our private repository
 ![image](https://user-images.githubusercontent.com/103019032/163171973-1fa6b911-ad19-4b03-80b0-7fce6b596e7c.png)
 - #### Now that we don’t have any centos images on our local machine, we can now use the following Docker pull command to pull the centos image from private repository
-- #### we are pulling the centos image to the private repository hosted at localhost:5000
-![image](https://user-images.githubusercontent.com/103019032/163172853-8f946435-db6b-4ba5-a890-ec6fc5f6f4db.png)
+- ![image](https://user-images.githubusercontent.com/103019032/163173242-e7aa869f-3e41-4843-adfb-ea91e0e03e7b.png)
+
