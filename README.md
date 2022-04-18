@@ -62,4 +62,17 @@
 ![image](https://user-images.githubusercontent.com/103019032/163171973-1fa6b911-ad19-4b03-80b0-7fce6b596e7c.png)
 - #### Now that we don’t have any centos images on our local machine, we can now use the following Docker pull command to pull the centos image from private repository
 - ![image](https://user-images.githubusercontent.com/103019032/163173242-e7aa869f-3e41-4843-adfb-ea91e0e03e7b.png)
+## *DOCKER compose*
+- #### Run the following command to download the current stable release of Docker Compose:
+![image](https://user-images.githubusercontent.com/103019032/163758278-2b3a6c6b-2ede-4007-907f-dba461d6ff10.png)
+![image](https://user-images.githubusercontent.com/103019032/163758366-c5ae1e8c-bbb5-4275-b9fe-62b2013e1974.png)
+- #### Apply executable permissions to the binary
+![image](https://user-images.githubusercontent.com/103019032/163758471-d278c5e9-5cbc-49b9-87c1-4eca0b2b9239.png)
+- #### Test your installation type $docker compose version
+![image](https://user-images.githubusercontent.com/103019032/163758608-eff20d20-cc77-4750-8772-176053e8c13e.png)
+
+
+
+
+
 
