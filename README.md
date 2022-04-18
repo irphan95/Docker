@@ -81,6 +81,8 @@
 ![image](https://user-images.githubusercontent.com/103019032/163771489-8c0df3cc-915f-4fa4-8a76-eb946dee607c.png)
 - #### If we create docker compose it will start from new service
 ![image](https://user-images.githubusercontent.com/103019032/163771743-3238fdd3-9f0b-4420-b12a-fa6c33abc185.png)
+- #### Stop docker compose using $docker compose down command
+![image](https://user-images.githubusercontent.com/103019032/163772606-f0bd7679-c2bd-410c-9c28-ff7d6be24969.png)
 
 
 
