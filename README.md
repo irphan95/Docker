@@ -24,8 +24,10 @@
 - #### To run the containers again, first you need to get the Container ID or Name by running the following command
 ![image](https://user-images.githubusercontent.com/103019032/162923344-9c50f4f4-cd63-49af-b702-3a950fa2e414.png)
 - #### Once the Container ID or Name has been acquired, you can start the container using the following command
+- #### sudo docker start < container id >
 ![image](https://user-images.githubusercontent.com/103019032/162924431-f16418c4-41c9-4527-acf3-b3a2c578700d.png)
 - #### To stop the running container run docker stop command by specifying the Container ID or Name
+- #### sudo docker stop < container id >
 ![image](https://user-images.githubusercontent.com/103019032/162925471-716fcc8c-fac1-4a7a-b377-883c74e869ea.png)
 ## *Dockerfile*
 - #### create a file using vi editor and cat command is used to display the content
